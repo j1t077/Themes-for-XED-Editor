@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="Futuristic" _name="Futuristic" version="1.0">
+    <author>ChatGPT</author>
+    <_description>Futuristic neon color scheme for coding</_description>
+
+    <!-- Futuristic Colors -->
+    <color name="Futuristic_BG" value="#0D0D0D" /> <!-- Fondo oscuro -->
+    <color name="Futuristic_FG" value="#E0E0E0" /> <!-- Texto normal -->
+    <color name="Futuristic_SELECTION" value="#1F51FF" /> <!-- Selección azul neón -->
+    <color name="Futuristic_COMMENT" value="#6C6C6C" /> <!-- Comentarios gris -->
+    <color name="Futuristic_CYAN" value="#00FFF7" /> <!-- Cian neón -->
+    <color name="Futuristic_MAGENTA" value="#FF00FF" /> <!-- Magenta neón -->
+    <color name="Futuristic_YELLOW" value="#FFD700" /> <!-- Amarillo brillante -->
+    <color name="Futuristic_GREEN" value="#00FF7F" /> <!-- Verde brillante -->
+    <color name="Futuristic_ORANGE" value="#FF9500" /> <!-- Naranja neón -->
+
+    <color name="Futuristic_BGLight" value="#1A1A1A" />
+
+    <!-- Global Settings -->
+    <style name="text"
+           foreground="Futuristic_FG"
+           background="Futuristic_BG" />
+    <style name="selection"
+           background="Futuristic_SELECTION" />
+    <style name="cursor"
+           foreground="Futuristic_FG"/>
+    <style name="current-line"
+           background="Futuristic_BGLight"/>
+    <style name="line-numbers"
+           foreground="Futuristic_COMMENT"
+           background="Futuristic_BG" />
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"
+           foreground="Futuristic_FG"
+           background="Futuristic_SELECTION"/>
+    <style name="bracket-mismatch"
+           foreground="Futuristic_MAGENTA"
+           background="Futuristic_SELECTION"/>
+
+    <!-- Comments -->
+    <style name="def:comment"
+           foreground="Futuristic_COMMENT"/>
+    <style name="def:shebang"
+           foreground="Futuristic_COMMENT"
+           bold="true"/>
+    <style name="def:doc-comment-element"
+           italic="true"/>
+
+    <!-- Constants -->
+    <style name="def:constant"
+           foreground="Futuristic_YELLOW"/>
+    <style name="def:number"
+           foreground="Futuristic_CYAN"/>
+    <style name="def:special-char"
+           foreground="Futuristic_MAGENTA"/>
+
+    <!-- Identifiers -->
+    <style name="def:identifier"
+           foreground="Futuristic_CYAN"/>
+
+    <!-- Statements -->
+    <style name="def:statement"
+           foreground="Futuristic_MAGENTA"/>
+
+    <!-- Types -->
+    <style name="def:type"
+           foreground="Futuristic_GREEN"/>
+
+    <!-- Operators -->
+    <style name="def:operator"
+           foreground="Futuristic_FG"/>
+
+    <!-- Errors and Warnings -->
+    <style name="def:error"
+           foreground="Futuristic_MAGENTA"
+           bold="true"/>
+    <style name="def:warning"
+           foreground="Futuristic_YELLOW"
+           bold="true"/>
+
+    <!-- Others -->
+    <style name="def:preprocessor"
+           foreground="Futuristic_ORANGE"/>
+    <style name="def:note"
+           foreground="Futuristic_FG"
+           background="Futuristic_BGLight"/>
+</style-scheme>
+
