@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="ModernBlue" _name="Modern Blue" version="1.0">
+    <author>J1T0</author>
+    <_description>Tema moderno con tonos azules oscuros, acentos azul claro y amarillos cálidos</_description>
+
+    <!-- 🎨 Paleta principal -->
+    <color name="MB_BG" value="#0D1117"/>            <!-- Fondo principal (negro azulado) -->
+    <color name="MB_FG" value="#E6EDF3"/>            <!-- Texto base -->
+    <color name="MB_SELECTION" value="#264073"/>     <!-- Selección azul medio -->
+    <color name="MB_COMMENT" value="#7D8590"/>       <!-- Comentarios gris azulados -->
+    <color name="MB_BLUE" value="#58A6FF"/>          <!-- Azul claro brillante -->
+    <color name="MB_DARKBLUE" value="#1F6FEB"/>      <!-- Azul más intenso -->
+    <color name="MB_CYAN" value="#76E3EA"/>          <!-- Azul verdoso claro -->
+    <color name="MB_YELLOW" value="#FFD866"/>        <!-- Amarillo suave -->
+    <color name="MB_ORANGE" value="#FFB86C"/>        <!-- Naranja pastel -->
+    <color name="MB_PURPLE" value="#C792EA"/>        <!-- Púrpura moderno -->
+    <color name="MB_RED" value="#FF6B6B"/>           <!-- Rojo alerta -->
+    <color name="MB_BGLight" value="#161B22"/>       <!-- Fondo secundario -->
+    <color name="MB_LineHighlight" value="#1C2128"/> <!-- Línea actual -->
+
+    <!-- 🌍 Global -->
+    <style name="text" foreground="MB_FG" background="MB_BG"/>
+    <style name="selection" background="MB_SELECTION"/>
+    <style name="cursor" foreground="MB_BLUE"/>
+    <style name="current-line" background="MB_LineHighlight"/>
+    <style name="line-numbers" foreground="MB_COMMENT" background="MB_BG"/>
+
+    <!-- 🔗 Bracket Matching -->
+    <style name="bracket-match" foreground="MB_YELLOW" background="MB_BGLight" bold="true"/>
+    <style name="bracket-mismatch" foreground="MB_RED" background="MB_BGLight" bold="true"/>
+
+    <!-- 💬 Comentarios -->
+    <style name="def:comment" foreground="MB_COMMENT" italic="true"/>
+    <style name="def:shebang" foreground="MB_COMMENT" bold="true"/>
+    <style name="def:doc-comment-element" italic="true"/>
+
+    <!-- 🔢 Constantes y números -->
+    <style name="def:constant" foreground="MB_YELLOW" bold="true"/>
+    <style name="def:number" foreground="MB_ORANGE" bold="true"/>
+    <style name="def:special-char" foreground="MB_PURPLE"/>
+
+    <!-- 🧩 Variables e identificadores -->
+    <style name="def:identifier" foreground="MB_CYAN" bold="true"/>
+
+    <!-- 🧠 Funciones / Palabras clave -->
+    <style name="def:statement" foreground="MB_BLUE" bold="true"/>
+    <style name="def:type" foreground="MB_DARKBLUE" bold="true"/>
+
+    <!-- ➕ Operadores -->
+    <style name="def:operator" foreground="MB_CYAN"/>
+
+    <!-- ⚙️ Otros -->
+    <style name="def:preprocessor" foreground="MB_PURPLE"/>
+    <style name="def:error" foreground="MB_RED" bold="true"/>
+    <style name="def:note" foreground="MB_COMMENT" background="MB_FG"/>
+    <style name="def:underlined" italic="true" underline="single"/>
+</style-scheme>
+

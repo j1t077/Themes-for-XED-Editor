@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="BlueWave" _name="BlueWave" version="1.0">
+    <author>Adaptado por J1T0 (basado en Bohemian de Vasileios Apostolidis-Afentoulis)</author>
+    <_description>Color scheme basado en tonos azules fríos con alto contraste</_description>
+
+    <!-- BlueWave Colors -->
+    <color name="BlueWave_BG" value="#0D1B2A" />
+    <color name="BlueWave_FG" value="#E0E6ED" />
+    <color name="BlueWave_SELECTION" value="#1B4965" />
+    <color name="BlueWave_COMMENT" value="#A9BCD0" />
+    <color name="BlueWave_CYAN" value="#5FA8D3" />
+    <color name="BlueWave_GREEN" value="#6FFFE9" />
+    <color name="BlueWave_ORANGE" value="#F0A500" />
+    <color name="BlueWave_PINK" value="#0096C7" />
+    <color name="BlueWave_PURPLE" value="#5E60CE" />
+    <color name="BlueWave_RED" value="#D62828" />
+    <color name="BlueWave_YELLOW" value="#FFD60A" />
+
+    <color name="BlueWave_BGLight" value="#1E3A5F" />
+
+    <!-- Global Settings -->
+    <style name="text"
+           foreground="BlueWave_FG"
+           background="BlueWave_BG" />
+    <style name="selection"
+           background="BlueWave_SELECTION" />
+    <style name="cursor"
+           foreground="BlueWave_FG" />
+    <style name="secondary-cursor"
+           foreground="BlueWave_FG" />
+    <style name="current-line"
+           background="BlueWave_BGLight" />
+    <style name="line-numbers"
+           foreground="BlueWave_COMMENT"
+           background="BlueWave_BG" />
+    <style name="background-pattern"
+           background="BlueWave_BG" />
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match"
+           foreground="BlueWave_FG"
+           background="BlueWave_SELECTION" />
+    <style name="bracket-mismatch"
+           foreground="BlueWave_RED"
+           background="BlueWave_SELECTION" />
+
+    <!-- Right Margin -->
+    <style name="right-margin"
+           foreground="BlueWave_COMMENT"
+           background="BlueWave_BG" />
+
+    <!-- Search Matching -->
+    <style name="search-match"
+           foreground="BlueWave_ORANGE"
+           background="BlueWave_BGLight" />
+
+    <!-- Comments -->
+    <style name="def:comment"
+           foreground="BlueWave_COMMENT" />
+    <style name="def:shebang"
+           foreground="BlueWave_COMMENT"
+           bold="true" />
+    <style name="def:doc-comment-element"
+           italic="true" />
+
+    <!-- Constants -->
+    <style name="def:constant"
+           foreground="BlueWave_YELLOW" />
+    <style name="def:special-char"
+           foreground="BlueWave_CYAN" />
+    <style name="def:number"
+           foreground="BlueWave_PURPLE" />
+
+    <!-- Identifiers -->
+    <style name="def:identifier"
+           foreground="BlueWave_PINK" />
+
+    <!-- Statements -->
+    <style name="def:statement"
+           foreground="BlueWave_PINK" />
+
+    <!-- Types -->
+    <style name="def:type"
+           foreground="BlueWave_GREEN" />
+
+    <!-- Operators -->
+    <style name="def:operator"
+           foreground="BlueWave_CYAN" />
+
+    <!-- Others -->
+    <style name="def:preprocessor"
+           foreground="BlueWave_PINK" />
+    <style name="def:error"
+           foreground="BlueWave_RED"
+           bold="true" />
+    <style name="def:note"
+           foreground="BlueWave_COMMENT"
+           background="BlueWave_FG" />
+    <style name="def:underlined"
+           italic="true"
+           underline="single" />
+
+</style-scheme>
+

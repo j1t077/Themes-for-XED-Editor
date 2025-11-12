@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="PistachioHighlight" _name="Pistachio Highlight" version="1.0">
+    <author>J1T0</author>
+    <_description>Versión de alto contraste. Tema Pistachio: variables y constantes más destacadas</_description>
+
+    <!-- Paleta base -->
+    <color name="P_BG" value="#121613"/>              <!-- Fondo oscuro -->
+    <color name="P_FG" value="#E9F7D1"/>              <!-- Texto principal -->
+    <color name="P_SELECTION" value="#3E6B1E"/>       <!-- Fondo selección -->
+    <color name="P_COMMENT" value="#9AAD85"/>         <!-- Comentarios -->
+    <color name="P_CYAN" value="#5EC2B0"/>            <!-- Operadores / secundarios -->
+    <color name="P_GREEN" value="#C9FF5E"/>           <!-- Variables / identificadores -->
+    <color name="P_ORANGE" value="#EAA84B"/>          <!-- Acento cálido -->
+    <color name="P_BLUE" value="#88B4FF"/>            <!-- Palabras clave -->
+    <color name="P_PURPLE" value="#C1A0FF"/>          <!-- Números / constantes -->
+    <color name="P_RED" value="#FF6B6B"/>             <!-- Errores -->
+    <color name="P_YELLOW" value="#FFF176"/>          <!-- Constantes más brillantes -->
+    <color name="P_BGLight" value="#1F231E"/>         <!-- Fondo líneas -->
+    <color name="P_LineHighlight" value="#2C302B"/>   <!-- Línea actual -->
+
+    <!-- Global -->
+    <style name="text" foreground="P_FG" background="P_BG"/>
+    <style name="selection" background="P_SELECTION"/>
+    <style name="cursor" foreground="P_FG"/>
+    <style name="current-line" background="P_LineHighlight"/>
+    <style name="line-numbers" foreground="P_COMMENT" background="P_BG"/>
+
+    <!-- Bracket Matching -->
+    <style name="bracket-match" background="P_SELECTION" foreground="P_FG" bold="true"/>
+    <style name="bracket-mismatch" background="P_RED" foreground="P_BG" bold="true"/>
+
+    <!-- Comentarios -->
+    <style name="def:comment" foreground="P_COMMENT" italic="true"/>
+    <style name="def:shebang" foreground="P_COMMENT" bold="true"/>
+    <style name="def:doc-comment-element" italic="true"/>
+
+    <!-- Constantes y números -->
+    <style name="def:constant" foreground="P_YELLOW" bold="true"/>
+    <style name="def:number" foreground="P_PURPLE" bold="true"/>
+    <style name="def:special-char" foreground="P_ORANGE"/>
+
+    <!-- Variables e identificadores -->
+    <style name="def:identifier" foreground="P_GREEN" bold="true"/>
+
+    <!-- Funciones / Palabras clave -->
+    <style name="def:statement" foreground="P_BLUE" bold="true"/>
+    <style name="def:type" foreground="P_GREEN" bold="true"/>
+
+    <!-- Operadores -->
+    <style name="def:operator" foreground="P_CYAN"/>
+
+    <!-- Otros -->
+    <style name="def:preprocessor" foreground="P_BLUE"/>
+    <style name="def:error" foreground="P_RED" bold="true"/>
+    <style name="def:note" foreground="P_COMMENT" background="P_FG"/>
+    <style name="def:underlined" italic="true" underline="single"/>
+</style-scheme>
+
