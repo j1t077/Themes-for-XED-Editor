@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <style-scheme id="Futuristic" _name="Futuristic" version="1.0">
     <author>J1T0</author>
-    <_description>Futuristic neon color scheme for coding</_description>
+    <_description>Tema Futuristic, Especial para resaltar codigo</_description>
 
     <!-- Futuristic Colors -->
     <color name="Futuristic_BG" value="#0D0D0D" /> <!-- Fondo oscuro -->
