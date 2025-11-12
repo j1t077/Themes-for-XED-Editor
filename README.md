@@ -4,9 +4,9 @@ Colección de esquemas de color personalizados para editores compatibles con XML
 
 Nota: No esta probado en los siguientes Editores, pero con pequeñas modificaciones puede funcionar:
 
-ModernBlue.xml     ← Gedit
-ModernBlue.conf    ← Geany
-ModernBlue.theme   ← Kate
+ModernBlue.xml    -->  Gedit
+ModernBlue.conf   -->  Geany
+ModernBlue.theme  -->  Kate
 
 
 ## Temas incluidos
